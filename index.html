@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/faviconPi.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--=============== FONTAWESOME ===============-->
+        <script src="https://kit.fontawesome.com/5219bc1c1d.js" crossorigin="anonymous"></script>
+
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title> Portfolio website Giuseppe </title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Giuseppe</a>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home-alt'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class='bx bx-user'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-book'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#work" class="nav__link">
+                                <i class='bx bxs-game'></i>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class='bx bx-message-square-detail'></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Theme change button -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+            </nav>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__greeting">Hello, I'm</span>
+                        <h1 class="home__name">Giuseppe Mondello</h1>
+                        <h3 class="home__education">Mathematician</h3>
+
+                        <div class="home__buttons">
+                            <a download="" href="assets/pdf/Giuseppe-Cv.pdf" class="button button--ghost">
+                                Download CV
+                            </a>
+                            <a href="#about" class="button">About me</a>
+                        </div>
+                    </div>
+
+                    <div class="home__handle">
+                        <img src="assets/img/photo1.png" alt="" class="home__img">
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://linkedin.com/" target="_blank" class="home__social-link">
+                            <i class='bx bxl-linkedin-square' ></i>
+                        </a>
+
+                        <a href="https://github.com/" target="_blank" class="home__social-link">
+                            <i class='bx bxl-github' ></i>
+                        </a>
+
+                        <!-- <a href="https://instagram.com/" target="_blank" class="home__social-link">
+                            <i class='bx bxl-instagram' ></i>
+                        </a> -->
+                    </div>
+
+                    <a href="#about" class="home__scroll">
+                        <i class='bx bx-mouse home__scroll-icon' ></i>
+                        <span class="home__scroll-name">Scroll Down</span>
+                    </a>
+                </div>
+            </section>
+            
+            <!--=============== ABOUT ===============-->
+            <section class="about section" id="about">
+                <span class="section__subtitle">Intro</span>
+                <h2 class="section__title">About Me</h2>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/heroPhoto.jpg" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <!-- <div class="about__info">
+                            <div class="about__box">
+                                <i class='bx bx-award about__icon' ></i>
+                                <h3 class="about__title">Experience</h3>
+                                <span class="about__subtitlr">1 Year Working</span>
+                            </div>
+
+                            <div class="about__box">
+                                <i class='bx bx-briefcase-alt about__icon' ></i>
+                                <h3 class="about__title">Math Repetitions</h3>
+                                <span class="about__subtitlr">5+ Years</span>
+                            </div>
+
+                            <div class="about__box">
+                                <i class='bx bx-support about__icon' ></i>
+                                <h3 class="about__title">Master Degree</h3>
+                                <span class="about__subtitlr">Mathematic</span>
+                            </div>
+                        </div> -->
+
+                        <p class="about__description">
+                            I am a master's degree student in Mathematics at the University of Turin.
+                            I have always been connected to mathematics and its logical and elegant construct.
+                            I have been accompanied since childhood by a visceral passion for video games, from which 
+                            I "inherited" a certain attention to the world of IT. 
+                            Passion and curiosity are the cornerstones that have led me to be who I am today. 
+                            I am always looking for new challenges that can stimulate me and new horizons to explore.
+                        </p>
+
+                        <a href="#contact" class="button">Contact Me</a>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== SKILLS ===============-->
+            <section class="skills section" id="skills">
+                <span class="section__subtitle">What I learned</span>
+                <h2 class="section__title">My Skills</h2>
+
+                <div class="skills__container container grid">
+                    <div class="skills__content">
+                        <h3 class="skills__title">Frontend Developer</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Javascript</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <!-- <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Bootsrap</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div> -->
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Git</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">React</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__content">
+                        <h3 class="skills__title">Data Science</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Pandas & Seaborne</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Scikit - Learn</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">R</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">SQL</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="skills__data">
+                                    <i class='bx bxs-badge-check' ></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Spring</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== SERVICES ===============-->
+            <section class="services section">
+                <span class="section__subtitle">What I Love</span>
+                <h2 class="section__title">My Hobbies</h2>
+
+                <div class="services__container container grid">
+                    <div class="services__card">
+                        <h3 class="services__title">Video <br> Games</h3>
+
+                        <span class="services__button">
+                            See more <i class='bx bx-right-arrow-alt services__icon' ></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close'></i>
+
+                                <h3 class="services__modal-title">Videogames Platforms</h3>
+                                <p class="services__modal-description">
+                                    Videogames are my greatest passion since I was a child.
+                                    I love the medium's unique way of storytelling, 
+                                    as well as the brilliant ideas behind great gameplay!
+                                </p>
+
+                                <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class='bx bxs-joystick-alt services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Nintendo: currently playing on Switch
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bxs-joystick services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Sony: currently playing on PlayStation 5
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bxs-keyboard services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            PC: currently playing on Steam, Epic, GOG, UPlay
+                                        </p>
+                                    </li>
+
+                                    <!-- <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Position company brand.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Design for companies.
+                                        </p>
+                                    </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services__card">
+                        <h3 class="services__title">TV <br> Series</h3>
+
+                        <span class="services__button">
+                            See more <i class='bx bx-right-arrow-alt services__icon' ></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close'></i>
+
+                                <h3 class="services__modal-title">Top 5 TV Series</h3>
+                                <p class="services__modal-description">
+                                    Suspanse, great actors, coherent plot and engaging narrative. 
+                                    This is what I look for from a good TV series! 
+                                </p>
+
+                                <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class='bx bxs-flask services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Breaking Bad
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bxs-bot services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Mr Robot
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='fa-solid fa-umbrella services__modal-icon-fa' ></i>
+                                        <p class="services__modal-info">
+                                            How I Met Your Mother
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bxs-landmark services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Better Call Saul
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bxs-mask services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            The Boys
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services__card">
+                        <h3 class="services__title">Anime <br> Manga</h3>
+
+                        <span class="services__button">
+                            See more <i class='bx bx-right-arrow-alt services__icon' ></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close'></i>
+
+                                <h3 class="services__modal-title">Top 5 Anime & Manga</h3>
+                                <p class="services__modal-description">
+                                    Excellent drawings and animations, memorable characters, and dreamy OST. 
+                                    But most of all, lots of Jap style!
+                                </p>
+
+                                <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class='fa-solid fa-spaghetti-monster-flying services__modal-icon-fa' ></i>
+                                        <p class="services__modal-info">
+                                            Kiseiju
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-atom services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Full Metal Alchemist 
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bxs-basketball services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Slam Dunk
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='fa-solid fa-trowel services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Gurren Lagann
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='fa-solid fa-stethoscope services__modal-icon-fa' ></i>
+                                        <p class="services__modal-info">
+                                            Monster
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services__card">
+                        <h3 class="services__title">Math <br> Tutor</h3>
+
+                        <span class="services__button">
+                            See more <i class='bx bx-right-arrow-alt services__icon' ></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close'></i>
+
+                                <h3 class="services__modal-title">Math Tutor for High School Student</h3>
+                                <p class="services__modal-description">
+                                    I think nowadays it is essential to have a good foundation in mathematics. 
+                                    That is why I am committed to tutoring, supported also by my in-depth study 
+                                    of mathematics education during my studies at university.
+                                </p>
+
+                                <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class='bx bxs-time-five services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            5+ years' experience
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bxs-group services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            10+ students tutored over the years
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-math services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Math
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bxl-redux services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Physics
+                                        </p>
+                                    </li>
+
+                                    <!-- <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Position company brand.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon' ></i>
+                                        <p class="services__modal-info">
+                                            Design for companies.
+                                        </p>
+                                    </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== WORK ===============-->
+            <section class="work section" id="work">
+                <span class="section__subtitle">Everything I developed, played, watched, read this year</span>
+                <h2 class="section__title">Recent Works</h2>
+
+                <div class="work__filters">
+                    <span class="work__item active-work" data-filter='all'>All</span>
+                    <span class="work__item" data-filter='.game'>Video <br> Games</span>
+                    <span class="work__item" data-filter='.manga'>Anime <br> Manga</span>
+                    <span class="work__item" data-filter='.tv'>TV <br> Series</span>
+                    <span class="work__item" data-filter='.project'>Project</span>
+                </div>
+
+                <div class="work__container container grid">
+                    <div class="work__card mix game">
+                        <img src="assets/img/game/god-of-war.jpg" alt="" class="work__img">
+
+                        <h3 class="work__title">God Of War [PS4]</h3>
+
+                        <a href="https://www.youtube.com/watch?v=K0u_kAWLJOA" target="_blank" class="work__button">
+                            View Trailer <i class='bx bx-right-arrow-alt work__icon' ></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix manga">
+                        <img src="assets/img/animanga/attack-titan.jpg" alt="" class="work__img">
+
+                        <h3 class="work__title">Attack On Titan</h3>
+
+                        <a href="https://www.panini.it/shp_ita_it/l-attacco-dei-giganti-cofanetto-nn-1-5-pieno-mgema005isbncp-it08.html" target="_blank" class="work__button">
+                            View Manga Edition <i class='bx bx-right-arrow-alt work__icon' ></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix project">
+                        <img src="assets/img/myproject/data-analysis.jpg" alt="" class="work__img">
+
+                        <h3 class="work__title">EDA about Environment Impact of Food Production</h3>
+
+                        <a href="https://www.kaggle.com/datasets/selfvivek/environment-impact-of-food-production" target="_blank" class="work__button">
+                            Take a Look at the Dataset <i class='bx bx-right-arrow-alt work__icon' ></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix tv">
+                        <img src="assets/img/tv/friends.jpg" alt="" class="work__img">
+
+                        <h3 class="work__title">Friends</h3>
+
+                        <a href="https://www.youtube.com/watch?v=IEEbUzffzrk" target="_blank" class="work__button">
+                            View Trailer <i class='bx bx-right-arrow-alt work__icon' ></i>
+                        </a>
+                    </div>
+
+                    <div class="work__card mix game">
+                        <img src="assets/img/game/zelda-skyward-sword.jpeg" alt="" class="work__img">
+
+                        <h3 class="work__title">The Legend Of Zelda: Skyward Sword HD [NSW]</h3>
+
+                        <a href="https://www.youtube.com/watch?v=m0ZKpsqk6OM" target="_blank" class="work__button">
+                            View Trailer <i class='bx bx-right-arrow-alt work__icon' ></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== TESTIMONIALS ===============-->
+            <section class="testimonial section">
+                
+            </section>
+
+            <!--=============== CONTACT ===============-->
+            <section class="contact section" id="contact">
+                <span class="section__subtitle">Get in touch</span>
+                <h2 class="section__title">Contact Me</h2>
+
+                <div class="contact__container container grid">
+                    <div class="contact__content">
+                        <h3 class="contact__title">Talk to me</h3>
+
+                        <div class="contact__info">
+                            <div class="contact__card">
+                                <i class='bx bxl-gmail contact__card-icon' ></i>
+                                <h3 class="contact__card-title">Email</h3>
+                                <span class="contact__card-data">giuseppe@gmail.com</span>
+
+                                <a href="mailto:examplemail@correo.com" target="_blank" class="contact__button">
+                                    Write me <i class='bx bx-right-arrow-alt contact__button-icon' ></i>
+                                </a>
+                            </div>
+
+                            <div class="contact__card">
+                                <i class='bx bxl-whatsapp contact__card-icon' ></i>
+                                <h3 class="contact__card-title">WhatsApp</h3>
+                                <span class="contact__card-data">999-888-777</span>
+
+                                <a href="https://api.whatsapp.com/send?phone=12345678910&text=Hello, World!" target="_blank" class="contact__button">
+                                    Write me <i class='bx bx-right-arrow-alt contact__button-icon' ></i>
+                                </a>
+                            </div>
+
+                            <div class="contact__card">
+                                <i class='bx bxl-messenger contact__card-icon' ></i>
+                                <h3 class="contact__card-title">Messenger</h3>
+                                <span class="contact__card-data">user.fb123</span>
+
+                                <a href="https://m.me/giuseppe.mondello.10" target="_blank" class="contact__button">
+                                    Write me <i class='bx bx-right-arrow-alt contact__button-icon' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <h3 class="contact__title">Do you need tutoring?</h3>
+
+                        <form action="" class="contact__form">
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Name</label>
+                                <input type="text" placeholder="Insert your name" class="contact__form-input">
+                            </div>
+
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Mail</label>
+                                <input type="email" placeholder="Insert your email" class="contact__form-input">
+                            </div>
+
+                            <div class="contact__form-div contact__form-area">
+                                <label for="" class="contact__form-tag">Which subject?</label>
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Write down what you need" class="contact__form-input"></textarea>
+                            </div>
+
+                            <button class="button">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer">
+            <div class="footer__container container">
+                <h1 class="footer__title">Giuseppe</h1>
+
+                <ul class="footer__list">
+                    <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+
+                    <li>
+                        <a href="#work" class="footer__link">Project</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-facebook-circle'></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram-alt'></i>
+                    </a>
+                    <a href="https://store.steampowered.com/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-steam'></i>
+                    </a>
+                </ul>
+
+                <span class="footer__copy">
+                    &#169; F-Society. All rights reserved
+                </span>
+            </div>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src=""></script>
+
+        <!--=============== MIXITUP FILTER ===============-->
+        <script src="assets/js/mixitup.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
