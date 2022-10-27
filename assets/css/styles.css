@@ -515,7 +515,12 @@ body.light-theme {
   column-gap: .5rem;
 }
 
-.skills .bxs-badge-check {
+.skills .icon-skills {
+  font-size: 1.3rem;
+  color: var(--first-color);
+}
+
+.skills .icon-skills-fa {
   font-size: 1rem;
   color: var(--first-color);
 }
